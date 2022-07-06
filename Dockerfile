@@ -8,4 +8,6 @@ RUN bundle install
 
 COPY . ./
 
+COPY .git /.git
+
 CMD ["rails", "server", "-p", "8080", "-e", "development", "-b", "0.0.0.0"]
