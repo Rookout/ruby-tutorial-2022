@@ -8,5 +8,7 @@ RUN bundle install
 
 COPY . ./
 
+COPY .git /.git
+
 EXPOSE 3000
 CMD ["rails", "server", "-e", "development", "-b", "0.0.0.0"]
