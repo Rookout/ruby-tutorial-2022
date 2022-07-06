@@ -45,3 +45,5 @@ group :development do
   # gem "spring"
 end
 
+
+gem "rookout", "~> 0.1.36"
