@@ -8,5 +8,4 @@ RUN bundle install
 
 COPY . ./
 
-EXPOSE 3000
-CMD ["rails", "server", "-e", "development", "-b", "0.0.0.0"]
+CMD ["rails", "server", "-p", "8080", "-e", "development", "-b", "0.0.0.0"]
